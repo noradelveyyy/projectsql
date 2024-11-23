@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+{% block konten %}
+    <h1>INPUT DATA ANTRIAN</h1>
+    <form action="/simpan" method="post" >
+        <input type="text" name="nama" placeholder="Enter nama" ><br>
+        <input type="number" name="nomor" placeholder="Enter nomor" ><br>
+        <textarea name="alamat" placeholder="Enter alamat" ></textarea><br>
+        <button type="submit">KIRIM</button>
+    </form>
+{% endblock %}
